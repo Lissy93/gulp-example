@@ -1,0 +1,20 @@
+{
+  "name": "twitter-sentiment-visualisation",
+  "version": "0.0.0",
+  "authors": [
+    "Alicia Sykes <alicia.sykes@accenture.com>"
+  ],
+  "description": "An awesome data visualisation showing peoples feelings towards a particular topic based on Tweets",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

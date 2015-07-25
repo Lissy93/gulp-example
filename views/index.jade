@@ -1,0 +1,46 @@
+extends layout
+
+block content
+  div.header
+    h1 Automated Code Tasks with Gulp js
+  div.content
+    h2 Features
+    ul.technologiesList
+      li Syncs current browser state including page, position on page etc between
+        | multiple different browsers both local and remote, using
+        | <a href="https://github.com/BrowserSync/browser-sync">browser-sync</a>
+      li Auto refreshes the Express server on file change using
+        | <a href="https://github.com/remy/nodemon">nodemon</a>
+      li Creates a production version of your code from the source directory into
+        | the public directory using
+        | <a href="https://github.com/gulpjs/gulp">Gulp</a> and various modules.
+    h2 Automated Code Tasks
+    ul.modulesList
+      li Checks all JavaScript (with <a href="https://github.com/spalger/gulp-jshint">
+        | gulp-jshint</a>), CoffeeScript
+        | (with <a href="https://github.com/janraasch/gulp-coffeelint">gulp-coffeelint</a>),
+        | CSS (with <a href="https://github.com/lazd/gulp-csslint">gulp-csslint</a>)
+        | and Less for errors and warnings and logs details to the console (with
+        | <a href="https://github.com/gulpjs/gulp-util">gulp-util</a>)
+      li Compiles CoffeeScript into JavaScript using
+        | <a href="https://github.com/wearefractal/gulp-coffee">gulp-coffee</a>
+      li Compiles Less into CSS using <a href="https://github.com/plus3network/gulp-less">gulp-less</a>
+      li Concatinates all JavaScript and CSS into one or a few single files, to reduce
+        | the amount of scripts included in the html, using
+        | <a href="https://github.com/wearefractal/gulp-concat">gulp-concat</a>
+      li Doesn't include unused CSS class in production code using
+        | <a href="https://github.com/ben-eb/gulp-uncss">gulp-uncss</a>
+      li Minifys all JavaScript using <a href="https://github.com/terinjokes/gulp-uglify">
+        | gulp-uglify</a> and CSS
+        | using <a href="https://github.com/murphydanger/gulp-minify-css">gulp-minify-css</a>
+      li Optionally adds a comment or text item to the bottom of each public file
+        | using <a href="https://github.com/godaddy/gulp-footer">gulp-footer</a>
+      li Finds the file size of the production file and logs it to the console
+        | with <a href="https://github.com/Metrime/gulp-filesize">gulp-filesize</a>
+      li It cleans the public directory before putting results in it using
+        | <a href="https://github.com/sindresorhus/del">del</a>
+      li Pipes all result files into the public directory without creating temporary files
+        | with <a href="https://github.com/dominictarr/event-stream">event-stream</a>
+      li It only does the above processes on files that have been changed which is
+        | determined using <a href="https://github.com/sindresorhus/gulp-changed">gulp-changed</a>
+

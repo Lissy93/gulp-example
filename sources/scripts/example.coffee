@@ -1,0 +1,2 @@
+iAmAFunction = (param) ->
+  'example'
