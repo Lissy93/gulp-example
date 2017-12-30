@@ -1,5 +1,7 @@
 # Example Implementation of Gulp in a Node Express Project
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Lissy93/gulp-example.svg)](https://greenkeeper.io/)
+
 ### Instructions to run the project
 
 - Open the console and navigate into a new working directory
